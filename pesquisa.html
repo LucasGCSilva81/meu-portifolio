@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Avalie o portfólio de Lucas G C Silva e compartilhe sua opinião.">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Avalie meu portfólio | Lucas.dev</title>
+
+<body>
+
+    <header class="header">
+        <nav class="barr-nav container" aria-label="Menu principal">
+            <a href="./index.html" class="logo">Lucas <span>.Dev</span></a>
+            <a href="./index.html" class="volar-link">← Voltar ao portfólio</a>
+
+            <button class="alt-tema" type="button" aria-label="Ativar tema claro" title="Alternar tema">☀️</button>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="section enquete-section">
+
+            <div class="container">
+                <div class="div-um-pesquisa classedivs">
+                    <p class="sobre-mim">SUA OPINIÃO É IMPORTANTE</p>
+                    <h1>Aqui você me avalia</h1>
+                    <p>Estou em transição de carreira para a programação
+                        e quero melhorar cada vez mais.
+                        Sua opinião é muito importante nessa jornada!</p>
+                </div>
+
+
+                <form class="form-enquete classedivs">
+                    <div class="form-grupo">
+                        <label for="nome">Como você se chama?</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" maxlength="80"
+                            autocomplete="name" required>
+                    </div>
+
+                    <fieldset class="form-grupo avaliacao-grupo">
+                        <legend>Qual nota você dá para o meu portfólio?</legend>
+                        <div class="opcoes-avaliacao">
+                            <label>
+                                <input type="radio" name="nota" value="1" required>
+                                <span>★</span>
+                                <small>1</small>
+                            </label>
+                            <label>
+                                <input type="radio" name="nota" value="2">
+                                <span>★</span>
+                                <small>2</small>
+                            </label>
+                            <label>
+                                <input type="radio" name="nota" value="3">
+                                <span>★</span>
+                                <small>3</small>
+                            </label>
+                            <label>
+                                <input type="radio" name="nota" value="4">
+                                <span>★</span>
+                                <small>4</small>
+                            </label>
+                            <label>
+                                <input type="radio" name="nota" value="5">
+                                <span>★</span>
+                                <small>5</small>
+                            </label>
+                        </div>
+                        <p class="avaliacao-descricao" id="avaliacao-descricao">Selecione uma nota de 1 a 5 estrelas.
+                        </p>
+                    </fieldset>
+
+                    <div class="form-grupo">
+                        <label for="experiencia">Como foi sua experiência navegando pelo site?</label>
+                        <select id="experiencia" name="experiencia" required>
+                            <option value="">Escolha uma opção</option>
+                            <option value="excelente">Excelente</option>
+                            <option value="boa">Boa</option>
+                            <option value="regular">Regular</option>
+                            <option value="ruim">Ruim</option>'
+                        </select>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="comentario">Deixe seu comentário:</label>
+                        <textarea id="comentario" name="comentario" rows="5" maxlength="1000"
+                            placeholder="Conte o que você gostou e o que posso melhorar..."></textarea>
+                    </div>
+
+                    <button type="submit" class="botao primeiro-botao botao-enviar">Enviar minha avaliação →</button>
+                    <p class="form-nota">Sua opinião me ajuda a continuar aprendendo
+                        e aprimorando meus projetos.</p>
+
+                    <div id="enquete-sucesso" class="sucesso-menssagem" role="status" aria-live="polite" hidden></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container conteudo-footer">
+            <p>
+                &copy; <span id="span-footer"></span>
+                Lucas G C Silva. Feito com dedicação e aprendizado.
+            </p>
+            <a href="./index.html" class="voltar-ao-topo"> Voltar ao início ↑</a>   
+        </div>
+    </footer>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
