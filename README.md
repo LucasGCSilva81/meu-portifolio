@@ -47,7 +47,7 @@ para a área de Tecnologia.</p>
  <br>
  <img src="https://github.com/LucasGCSilva81/meu-portifolio/blob/master/assets/meu-portifolio.jpeg?raw=true"> 
  <br>
- <img src"https://github.com/LucasGCSilva81/meu-portifolio/blob/master/assets/meu-portifolio2.jpeg?raw=true">
+<img src="https://github.com/LucasGCSilva81/meu-portifolio/blob/master/assets/meu-portifolio2.jpeg?raw=true">
  <br>
  <img src">
  <br>
