@@ -44,6 +44,13 @@ para a área de Tecnologia.</p>
  </p>
  <br>
  <p>Obrigado por visitar meu projeto! 🤟🏻😎</p>
- 
+ <br>
+ <img src="https://github.com/LucasGCSilva81/meu-portifolio/blob/master/assets/meu-portifolio.jpeg?raw=true"> 
+ <br>
+ <img src">
+ <br>
+ <img src">
+ <br>
+ <img src">
 
   
